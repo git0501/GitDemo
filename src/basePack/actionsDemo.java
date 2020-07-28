@@ -23,6 +23,7 @@ public class actionsDemo {
 		driver.manage().deleteAllCookies(); // deleting the cookies
 
 		driver.get("https://www.amazon.com/");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command");
 		
 		Actions action = new Actions(driver);
 		WebElement move = driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
