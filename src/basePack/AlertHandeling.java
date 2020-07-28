@@ -24,7 +24,7 @@ public class AlertHandeling {
 	    
 	    driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 	    //Handling Radio button with validation
-	    
+	    System.out.println("Changes for learning git commands");
         Thread.sleep(2000);
 	    System.out.println(driver.findElement(By.xpath("//input[@value='radio2']")).isSelected());
 	    driver.findElement(By.xpath("//input[@value='radio2']")).click(); 

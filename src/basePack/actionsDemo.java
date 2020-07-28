@@ -23,7 +23,11 @@ public class actionsDemo {
 		driver.manage().deleteAllCookies(); // deleting the cookies
 
 		driver.get("https://www.amazon.com/");
-		System.out.println("This is Amazon site and this line I am writing for learning Git command");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command1");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command2");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command3");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command4");
+		System.out.println("This is Amazon site and this line I am writing for learning Git command5");
 		
 		Actions action = new Actions(driver);
 		WebElement move = driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
