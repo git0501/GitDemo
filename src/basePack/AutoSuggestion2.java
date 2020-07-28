@@ -25,6 +25,7 @@ public class AutoSuggestion2 {
 		System.out.println("I want to travel by air second time");
 		System.out.println("I want to travel by air third time");
 		System.out.println("I want to travel by air fourth time");
+		System.out.println("I want to travel by air fourth time");
 
 		driver.findElement(By.id("fromCity")).click();
 		Thread.sleep(2000);
