@@ -20,6 +20,10 @@ public class AutoSuggestion2 {
 		driver.manage().deleteAllCookies(); // deleting the cookies
 
 		driver.get("https://www.makemytrip.com/");
+		System.out.println("I want to travel by air");
+		System.out.println("I want to travel by air first time");
+		System.out.println("I want to travel by air second time");
+		System.out.println("I want to travel by air third time");
 
 		driver.findElement(By.id("fromCity")).click();
 		Thread.sleep(2000);

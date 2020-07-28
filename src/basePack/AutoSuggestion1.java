@@ -20,6 +20,9 @@ public class AutoSuggestion1 {
 		driver.manage().deleteAllCookies(); // deleting the cookies
 
 		driver.get("https://www.google.co.in/");
+		System.out.println("Hi Vikram1");
+		System.out.println("Hi Vikram1");
+		System.out.println("Hi Vikram1");
 
 		driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys("India");
 		Thread.sleep(2000);
